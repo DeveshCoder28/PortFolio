@@ -1,0 +1,18 @@
+.s-main{
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.s-heading{
+    font-size: 50px;
+}
+img{
+    width: 100px;
+    padding: 0px 10px;
+}
+.skill-set{
+    justify-content: space-between;
+    padding: 0px 10px;
+}
