@@ -43,7 +43,7 @@ const Contact = () => {
                         <img src={Address}
                         alt="" 
                         className="c-icon" />
-                        C-3 Main Market Bhajanpura Delhi 53 India
+                         Mr John Smith. 132, My Street, Kingston, New York 12401
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.scss'
-
+import About from '../about/About'
 
 
 
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container">
         <div className="left">
             
-            <span>About me</span>
+            <span src='#about'>About me</span>
             <span>Projects</span>
             <span>Contact</span>
             

@@ -1,6 +1,10 @@
 import React from 'react'
 import "./intro.css"
 import Me from "../../img/Me.png"
+import insta from "../../img/intsa.png"
+import linkdin from "../../img/linkdin.png"
+import fb from "../../img/fb.png"
+
 
 
 const Intro = () => {
@@ -22,6 +26,17 @@ const Intro = () => {
                   <p className="i-desc">
                     I design and develop websites for customer of all sizes, specialised in creating beautiful asthetic, modern, meaningful websites available on web browsers.
                     </p>
+                  <div className="socials">
+                  <a href="" target='_blank'>
+                    <img src={insta} alt="" className="insta" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/devesh-sharma-70383b23a/" target='_blank'>
+                    <img src={linkdin} alt="" className="social" />
+                  </a>
+                  <a href="" target='_blank'>
+                    <img src={fb} alt="" className="social" />
+                  </a>
+                  </div>
             </div>
             <svg width="800px" 
             height="800px" 

@@ -1,12 +1,16 @@
+import tindog from './img/tindog.png';
+import dice from './img/dice.jpg';
+
+
 export const products=[
     {
         id:1,
-        img:"https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        img:tindog,
         link:"https://www.instagram.com/maideveshhu/",
     },
     {
         id:2,
-        img:"https://images.pexels.com/photos/3699259/pexels-photo-3699259.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        img:dice,
         link:"https://www.instagram.com/maideveshhu/",
     },
     {

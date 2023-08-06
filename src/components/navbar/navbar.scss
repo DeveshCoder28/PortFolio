@@ -1,12 +1,12 @@
 .navbar{
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
     background: linear-gradient(to top, transparent 0%,rgb(0,0,0,0.3) 50%);
-
+    overflow: hidden;
     &.scrolled{
         background-color: #0b0b0b;
     }
@@ -15,7 +15,7 @@
         padding: 0px 50px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        
         height: 70px; 
         .left{
             display: flex;
